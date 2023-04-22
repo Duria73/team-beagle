@@ -104,7 +104,7 @@ const NavBar = (): JSX.Element => {
           <Link href="/">
             <Typography variant="h5" color="textPrimary" noWrap className={classes.toolbarTitle}>
               <PetsIcon color="primary" className={classes.toolbarIcon} />
-              <Box display={{ xs: 'none', md: 'block' }}>LovingSitter.</Box>
+              <Box display={{ xs: 'none', md: 'block' }}>Furrble.</Box>
             </Typography>
           </Link>
           {!loggedInUser && (

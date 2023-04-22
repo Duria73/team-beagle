@@ -40,7 +40,7 @@ const SignUpForm = ({ handleSubmit }: Props): JSX.Element => {
   const history = useHistory();
 
   const demoUserSubmit = () => {
-    login('demo@hatchways.com', 'demo123').then((data) => {
+    login('demo@email.com', 'demo123').then((data) => {
       if (data.success) {
         updateLoginContext(data.success, true);
         history.push('/dashboard');

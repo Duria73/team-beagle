@@ -1,11 +1,11 @@
 ## Loving Sitter
 
-Loving Sitter is a full-stack CRUD website that helps dog owners find dogsitters. Users can create accounts and find dogsitters based on their location and schedule. The site also includes real-timemessaging functionality between users for streamlined communication between dog owners and dogsitters. Payments to dogsitters is done using Stripe. Dog owners can submit reviews of dogsitters after receiving dogsitting services.
+Furrble is a full-stack CRUD website that helps dog owners find dogsitters. Users can create accounts and find dogsitters based on their location and schedule. The site also includes real-time messaging functionality between users for streamlined communication between dog owners and dogsitters. Payments to dogsitters is done using Stripe. Dog owners can submit reviews of dogsitters after receiving dogsitting services.
 
 **Tech Stack:** MongoDB, Express.js, React.js, Node.js, Typescript
 **Technologies/Libraries:** Socket.io, Stripe, Cloudinary
 
-**Contributors**: [Wilson Fong](https://github.com/siuwafong), [David Lee](https://github.com/davidleecodes), [Alex Duria](https://github.com/Duria73)
+**Contributors**: [Alex Duria](https://github.com/Duria73)
 
 ---
 

@@ -14,7 +14,7 @@ import { useHistory } from 'react-router-dom';
 import { useAuth } from '../../context/useAuthContext';
 import login from '../../helpers/APICalls/login';
 
-import DogsImage from '../../Images/dogs.jpeg';
+import DogsVideo from '../../Images/dog2.mp4';
 
 export default function Landing(): JSX.Element {
   const classes = useStyles();
@@ -44,7 +44,7 @@ export default function Landing(): JSX.Element {
             <Grid container direction="row" justify="center" alignItems="center">
               <Grid item lg={6} md={12} alignItems="center">
                 <Typography className={classes.welcome} component="h1" variant="h5">
-                  Find the care your dog deserves
+                  Find The Care Your Dog Deserves
                 </Typography>
 
                 <Box className={classes.formArea}>
@@ -105,7 +105,10 @@ export default function Landing(): JSX.Element {
               </Grid>
               <Hidden only={['xs', 'sm', 'md']}>
                 <Grid item lg={6}>
-                  <img src={DogsImage} alt="landingImage" className={classes.banner} />
+                  {/* <img src={DogsImage} alt="landingImage" className={classes.banner} /> */}
+                  <video loop autoPlay className={classes.banner}>
+                    <source src={DogsVideo} id='video' type="video/mp4" />
+                  </video>
                 </Grid>
               </Hidden>
             </Grid>
